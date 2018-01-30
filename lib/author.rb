@@ -12,8 +12,8 @@ class Author
 
   def add_post(post)
     #new_post = Post.new(title)
-    @posts << new_post
-    new_post.author = self
+    @posts << post
+    post.author = self
     @@posts += 1
   end
 
