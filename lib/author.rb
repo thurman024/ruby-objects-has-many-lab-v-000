@@ -6,6 +6,10 @@ class Author
     @posts = []
   end
 
+  def posts
+    @posts
+  end
+
   def add_post(post)
     #new_post = Post.new(title)
     @posts << new_post
