@@ -1,9 +1,10 @@
 
 class Song
-  attr_accessor :title, :artist
+  attr_accessor :name, :artist
   def initialize(title)
-    @title = title
+    @name = title
   end
 
+  def artist_name
 
 end
